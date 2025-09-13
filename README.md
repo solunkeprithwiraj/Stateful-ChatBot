@@ -14,11 +14,13 @@ A minimal, streamlined chatbot implementation using Google's Gemini Flash API wi
 ## Quick Start
 
 1. **Install dependencies**:
+
    ```bash
    pip install google-generativeai python-dotenv
    ```
 
 2. **Set up API key**:
+
    ```bash
    echo "GOOGLE_API_KEY=your_api_key_here" > .env
    ```
@@ -31,11 +33,13 @@ A minimal, streamlined chatbot implementation using Google's Gemini Flash API wi
 ## Usage
 
 ### Commands
+
 - `set_user <id>` - Set current user
 - `update_profile name=<name>,interest=<topic>` - Update profile
 - `quit` - Exit
 
 ### Example Session
+
 ```
 You: set_user john123
 User set to: john123
@@ -73,6 +77,7 @@ Bot: Your name is John.
 ## Session Persistence
 
 The chatbot automatically:
+
 - Saves your session to `chatbot_session.json`
 - Loads your session when you restart
 - Remembers your name, preferences, and conversation history
