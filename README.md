@@ -18,7 +18,7 @@ A minimal, streamlined chatbot implementation using Google's Gemini Flash API wi
 
 3. **Run the chatbot**:
    ```bash
-   python streamlined_chatbot.py
+   python chatbot.py
    ```
 
 ## Usage
