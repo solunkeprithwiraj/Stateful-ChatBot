@@ -2,15 +2,6 @@
 
 A minimal, streamlined chatbot implementation using Google's Gemini Flash API with automatic session persistence, user profiles, and conversation memory.
 
-## Features
-
-- ✅ **Automatic Session Persistence** - No manual save/load needed
-- ✅ **User Profiles** - Remembers name and preferences
-- ✅ **Conversation Memory** - Maintains context across sessions
-- ✅ **Auto-Summarization** - Compresses long conversations
-- ✅ **Minimal Dependencies** - Only 2 packages required
-- ✅ **Single File** - Everything in one clean script
-
 ## Quick Start
 
 1. **Install dependencies**:
@@ -69,9 +60,8 @@ Bot: Your name is John.
 
 ## Files
 
-- `streamlined_chatbot.py` - Main chatbot (single file)
-- `requirements_minimal.txt` - Minimal dependencies
-- `chatbot_session.json` - Auto-generated session file
+- `chatbot.py` - Main chatbot
+- `requirements.txt` - dependencies
 - `.env` - Your API key (create this)
 
 ## Session Persistence
